@@ -8,10 +8,10 @@ myEcho () {
 }
 
 myEcho "# ------------------------------------------------------------------------------        
-#   Kubernetes CIS Benchmark
-#   Version 1.2.0 
+#   TESTING K8s
+#   
 #
-#   Optum Technology. (c) 2018
+#   
 # ------------------------------------------------------------------------------"
 
 # Program requirement check
