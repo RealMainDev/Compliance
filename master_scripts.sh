@@ -20,11 +20,3 @@ for req in $requirements; do
   command -v "$req" >/dev/null 2>&1 || { printf "%s command not found\n" "$req"; exit 1; }
 done
 
-main () {
-  for script in master_pythonScripts/master_*.py
-  do
-     ./"$script"
-  done
-}
-
-main "$@"
