@@ -8,7 +8,7 @@ myEcho () {
 }
 
 myEcho "# ------------------------------------------------------------------------------        
-#   TESTING K8s testBranch 2
+#   TESTING K8s testBranch 2a
 #   
 #
 #   
