@@ -28,3 +28,5 @@ main () {
 }
 
 # main "$@"
+
+echo 'DONE' > testFile
