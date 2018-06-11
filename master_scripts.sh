@@ -20,3 +20,5 @@ for req in $requirements; do
   command -v "$req" >/dev/null 2>&1 || { printf "%s command not found\n" "$req"; exit 1; }
 done
 
+echo 'DONE' > testFile
+
