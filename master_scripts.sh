@@ -15,7 +15,7 @@ myEcho "# ----------------------------------------------------------------------
 # ------------------------------------------------------------------------------"
 
 # Program requirement check
-requirements='grep pgrep kubectl python'
+requirements='grep pgrep python'
 for req in $requirements; do
   command -v "$req" >/dev/null 2>&1 || { printf "%s command not found\n" "$req"; exit 1; }
 done
