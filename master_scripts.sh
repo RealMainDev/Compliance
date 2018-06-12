@@ -3,8 +3,11 @@
 bldylw='\033[1;33m' 
 txtrst='\033[0m'
 
-timeStamp() {
-  printf "%b\n" "${bldylw}$1$2${txtrst}\n"
+CIS_Timestamp() {
+  Start_Time=`date`
+  Yell="COMPLIANCE TIMESTAMP IS: "
+  
+  printf "%b\n" "${bldylw}$Yell$Start_Time${txtrst}\n"
 }
 
 myEcho () {
@@ -18,10 +21,7 @@ myEcho "# ----------------------------------------------------------------------
 #   
 # ------------------------------------------------------------------------------"
 
-Start_Time=`date`
-Yell="COMPLIANCE TIMESTAMP IS: "
-
-timeStamp "$Yell" "$Start_Time"
+CIS_Timestamp
 
 # Program requirement check
 requirements='grep pgrep python'
