@@ -15,7 +15,7 @@ myEcho "# ----------------------------------------------------------------------
 # ------------------------------------------------------------------------------"
 start_time=`date`
 myEcho "COMPLIANCE TIMESTAMP: "
-myEcho start_time
+myEcho $start_time
 
 # Program requirement check
 requirements='grep pgrep python'
