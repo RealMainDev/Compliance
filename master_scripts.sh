@@ -5,9 +5,10 @@ txtrst='\033[0m'
 
 CIS_Timestamp() {
   Start_Time=`date`
-  Yell="COMPLIANCE TIMESTAMP IS: "
+  Yell_1="------------- COMPLIANCE TIMESTAMP IS: "
+  Yell_2=" -------------"
   
-  printf "%b\n" "${bldylw}$Yell$Start_Time${txtrst}\n"
+  printf "%b\n" "${bldylw}$Yell_1$Start_Time$Yell_2${txtrst}\n"
 }
 
 myEcho () {
