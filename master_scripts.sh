@@ -21,7 +21,7 @@ myEcho "# ----------------------------------------------------------------------
 Start_Time=`date`
 Yell="COMPLIANCE TIMESTAMP IS: "
 
-timeStamp "$Yell" "$Start_Time
+timeStamp "$Yell" "$Start_Time"
 
 # Program requirement check
 requirements='grep pgrep python'
