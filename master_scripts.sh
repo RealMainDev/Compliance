@@ -3,7 +3,7 @@
 bldylw='\033[1;33m' 
 txtrst='\033[0m'
 
-TimeStamp() {
+timeStamp() {
   printf "%b\n" "${bldylw}$1$2${txtrst}\n
 }
 
@@ -21,7 +21,7 @@ myEcho "# ----------------------------------------------------------------------
 Start_Time=`date`
 Yell="COMPLIANCE TIMESTAMP IS: "
 
-TimeStamp Yell Start_Time
+timeStamp Yell Start_Time
 
 # Program requirement check
 requirements='grep pgrep python'
