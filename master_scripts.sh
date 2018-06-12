@@ -4,7 +4,7 @@ bldylw='\033[1;33m'
 txtrst='\033[0m'
 
 timeStamp() {
-  printf "%b\n" "${bldylw}$1${txtrst}\n
+  printf "%b\n" "${bldylw}$1${txtrst}\n"
 }
 
 myEcho () {
