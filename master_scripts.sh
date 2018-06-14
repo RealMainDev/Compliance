@@ -1,5 +1,5 @@
 #!/bin/sh
-
+TEST='TEST'
 bldylw='\033[1;33m' 
 txtrst='\033[0m'
 
