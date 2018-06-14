@@ -6,7 +6,7 @@ txtrst='\033[0m'
 myEcho () {
   printf "%b\n" "${bldylw}$1${txtrst}\n"
 }
-
+TEST='TEST4'
 myEcho "# ------------------------------------------------------------------------------        
 #   TESTING K8s testBranch 2
 #   
